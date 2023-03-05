@@ -1,21 +1,17 @@
 * {
   box-sizing: border-box;
-}
-
-html{
-  height: 100vh;
-  width: 100vw;
-}
-
-body {
   margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+body {  
   height: 100%;
   display: flex;  
   justify-content: center;
   background-color: black;
 }
 .certificate {
-  margin: 0;
   width: 33%;
   background-image: url("./img/Certificate\ 2023_2_41\ -\ Łukasz\ Ruszkiewicz.png");
   background-size: cover;
